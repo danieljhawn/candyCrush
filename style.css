@@ -1,11 +1,61 @@
+body {
+  background-color: rgb(74, 29, 133);
+  font-family: sans-serif;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+
 .grid {
   height: 560px;
   width: 560px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
+  background-color: rgb(170, 115, 241);
+  padding: 20px;
+  margin: 5px;
+  border-radius: 2rem;
 }
 
 .grid div {
   height: 70px;
   width: 70px;
+
+}
+
+.container {
+  /* background-color: rgb(255, 241, 50); */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 2rem;
+  position: relative;
+}
+
+.play-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(170, 115, 241);
+  border-radius: 2rem;
+  margin: .5rem;
+  padding: .5rem;
+  /* height: 100vh; */
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+
+.score-board {
+  border-radius: 2rem;
+  /* height: 560px; */
+  padding: 20px 5px;
+  margin: 5px;
+
+}
+
+.play-area>div {
+  background-color: rgb(115, 241, 188);
 }
